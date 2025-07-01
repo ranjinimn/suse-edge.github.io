@@ -173,6 +173,7 @@ operatingSystem:
 The values provided in this example are for illustrative purposes only. Please adjust them to fit your specific requirements.
 ====
 
+<<<<<<< HEAD
 [#adding-operating-system-files]
 === Adding Operating System Files
 
@@ -184,17 +185,33 @@ For example, if a file exists in a subdirectory named `os-files/etc`, it is plac
 ====
 If the `os-files` directory exists, it cannot be empty. 
 ====
+=======
+[#adding-certificates]
+=== Adding certificates
+
+Certificate files with the extension ".pem" or ".crt" stored in the `certificates` directory will be installed in the node system-wide certificate store:
+>>>>>>> 7f9eb52 (Added a section for certificates on EIB (#725))
 
 [,console]
 ----
 .
 ├── definition.yaml
+<<<<<<< HEAD
 └── os-files
     └── etc
         └── ssh
             └── sshd_config
 ----
 
+=======
+└── certificates
+    ├── my-ca.pem
+    └── my-ca.crt
+----
+
+See the https://documentation.suse.com/smart/security/html/tls-certificates/index.html#tls-adding-new-certificates["Securing Communication with TLS Certificate" guide] for more information.
+
+>>>>>>> 7f9eb52 (Added a section for certificates on EIB (#725))
 [#eib-configuring-rpm-packages]
 === Configuring RPM packages
 
