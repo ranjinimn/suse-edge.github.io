@@ -1,0 +1,27 @@
+[#supported-deployment-topologies]
+= Supported Deployment Topologies
+:description: Understand the supported deployment topologies for SUSE Telco Cloud, including single-node and multi-node configurations, and how to choose the right topology for your use case
+:revdate: 2026-10-15
+:revnumber: 3.7
+:page-revdate: {revdate}
+:experimental:
+
+ifdef::env-github[]
+:imagesdir: ../images/
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+
+== Single-Node Deployment Topology
+
+== Multi-Node Deployment Topology
+
+== High availability Deployment Topology
+
+== Air-gapped Deployment Topology
+
+Most of the content in these sections provides the procedure than the concept. 

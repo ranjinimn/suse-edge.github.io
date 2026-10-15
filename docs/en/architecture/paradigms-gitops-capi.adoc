@@ -1,0 +1,17 @@
+[#paradigms-gitops-capi]
+= Paradigms: GitOps and CAPI
+:description: Understand the GitOps and CAPI paradigms used in SUSE Telco Cloud, including their benefits, use cases, and how they are implemented in the platform
+:revdate: 2026-10-15
+:revnumber: 3.7
+:page-revdate: {revdate}
+:experimental:
+
+ifdef::env-github[]
+:imagesdir: ../images/
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
